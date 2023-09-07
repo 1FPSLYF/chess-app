@@ -12,8 +12,8 @@ function App() {
           {
               arr.map((index)=>{
                 let t ,u, pass;
-                t= index1%2===1 ? 'bg-red-300' : 'bg-stone-700';
-                u = index1%2===1 ? 'bg-stone-700' : 'bg-red-300';
+                t= index1%2===1 ? 'bg-red-300' : 'bg-stone-400';
+                u = index1%2===1 ? 'bg-stone-400' : 'bg-red-300';
                 pass = index%2===1 ? t : u;
                 return <Box color = {pass} key = {index}/>
                })
